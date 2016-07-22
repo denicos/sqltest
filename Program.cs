@@ -83,9 +83,8 @@ namespace stockone
                 {
                     SqlCommand viewCommand = new SqlCommand("UPDATE console_nic", conn);
                 }
-                else if (input == E)
-                {
-
+                else{
+                    Console.WriteLine("done.")
                 }
 
                 
